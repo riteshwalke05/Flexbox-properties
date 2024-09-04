@@ -13,10 +13,10 @@ h2{
 .card{
     height: 200px;
     width: 150px;
-    background-color:rgb(37, 215, 203);
-    border: 3px solid rgb(128, 128, 128);
+    background-color: rgb(133, 230, 243);
+    border: 2px solid grey;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px 5px gray;
+    box-shadow: 0px 0px 3px 3px gray;
     text-align: center;
     margin-left: 50px;
     margin-top: 20px;
