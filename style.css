@@ -1,0 +1,217 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman';
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.card{
+    height: 200px;
+    width: 150px;
+    background-color:rgb(37, 215, 203);
+    border: 3px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px gray;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0px 10px 7px 2px white;
+}
+.img_card{
+    height: 150px;
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container7{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container8{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container9{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container11{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container12{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.container13{
+    display: flex;
+    flex-direction: column;
+    justify-content: Start;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container14{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container15{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container16{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container17{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container18{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container19{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container20{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container21{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container22{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container23{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.container24{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color:  #b3cccc;
+    height: 1200px;
+    width: 400px;
+}
+.box1{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:  #b3cccc;
+    height: 300px;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  #b3cccc;
+    height: 300px;
+}

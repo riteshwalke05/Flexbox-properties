@@ -1,47 +1,613 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
-    <style>
-    .container
-         {
-          height: 1600px;
-          width:2000px;
-          background-color: beige;
-          border: solid black 2px;
-          padding: 30px;
-          display: flex;
-          flex-wrap: wrap-reverse;
-          
-         }
-         
-        
-        .card{
-           height: 70;
-           width: 70;
-           padding: 10px;
-           background-color: blueviolet;
-           border: solid  violet 2px;
-           border-radius: 20px; 
-           margin: 10px;
-           }
-      </style>
+    <title>Cards</title>
+    <link href="style.css" rel="Stylesheet">
 </head>
 <body>
-
+     <!-- Flex-Direction:Row -->
+    <h2>Flex-direction: Row and Justify-Content: Start</h2>
     <div class="container">
-        <div class="card"> 
-            <img src="images/download (3).jpeg" >
+        <div class="card">
+            <img src="./images/images (1).jpeg" alt="Taddy" class="img_card"/>
+            <p>Pizza1</p>
         </div>
-        <div class="card"> 
-            <img src="images/images (1).jpeg" >
+
+        <div class="card">
+            <img src="./images/images (2).jpeg" alt="Taddy" class="img_card"/>
+            <p>Pizza2</p>
         </div>
-        <div class="card"> 
-            <img src="images/images (2).jpeg" >
+
+        <div class="card">
+            <img src="./images/images(3).jpeg" alt="Taddy" class="img_card"/>
+            <p>Pizza3</p>
         </div>
-        <div class="card"> 
-            <img src="images/download (4).jpeg" >
+
+        <div class="card">
+            <img src="./images/images(4).jpeg" alt="Taddy" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+        
+    </div>
+
+    <h2>Flex-direction: Row and Justify-Content: end</h2>
+    <div class="container2">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
         </div>
     </div>
+
+    <h2>Flex-direction: Row and Justify-Content: center</h2>
+    <div class="container3">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="images/images (1).jpeg" alt="TA" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row and Justify-Content:Space-evenly</h2>
+    <div class="container4">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row and Justify-Content:Space-between</h2>
+    <div class="container5">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row and Justify-Content:Space-around</h2>
+    <div class="container6">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <!-- Flex-Direction:Row-Reverse -->
+    <h2>Flex-direction: Row-Reverse and Justify-Content:Start</h2>
+    <div class="container7">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row-Reverse and Justify-Content:end</h2>
+    <div class="container8">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row-Reverse and Justify-Content: center</h2>
+    <div class="container9">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row-Reverse and Justify-Content: Space-evenly</h2>
+    <div class="container10">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row-Reverse and Justify-Content: Space-between</h2>
+    <div class="container11">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Row-Reverse and Justify-Content: Space-around</h2>
+    <div class="container12">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <!-- Flex-Direction:Column -->
+    <h2>Flex-direction: Column and Justify-Content: Strat</h2>
+    <div class="container13">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column and Justify-Content: end</h2>
+    <div class="container14">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column and Justify-Content: center</h2>
+    <div class="container15">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column and Justify-Content: space-evenly</h2>
+    <div class="container16">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column and Justify-Content: space-between</h2>
+    <div class="container17">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column and Justify-Content: space-around</h2>
+    <div class="container18">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+    
+    <!-- Flex-Direction:Column-Reverse -->
+    <h2>Flex-direction: Column-Reverse and Justify-Content: Start</h2>
+    <div class="container19">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column-Reverse and Justify-Content: end</h2>
+    <div class="container20">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column-Reverse and Justify-Content: center</h2>
+    <div class="container21">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column-Reverse and Justify-Content: Space-evenly</h2>
+    <div class="container22">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column-Reverse and Justify-Content: Space-between</h2>
+    <div class="container23">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-direction: Column-Reverse and Justify-Content: Space-around</h2>
+    <div class="container24">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-wrap:no-wrap</h2>
+    <div class="box1">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    <h2>Flex-wrap:wrap</h2>
+    <div class="box2">
+        <div class="card">
+            <img src="./images/pizza.avif" alt="pizza" class="img_card"/>
+            <p>Pizza1</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza2.avif" alt="pizza" class="img_card"/>
+            <p>Pizza2</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza3.avif" alt="pizza" class="img_card"/>
+            <p>Pizza3</p>
+        </div>
+
+        <div class="card">
+            <img src="./images/pizza4.avif" alt="pizza" class="img_card"/>
+            <p>Pizza4</p>
+        </div>
+    </div>
+
+    
 </body>
 </html>
